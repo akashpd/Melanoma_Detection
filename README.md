@@ -75,7 +75,10 @@ The data set contains the following diseases:
 - pandas
 
 ## Conclusions
-
+- The class rebalance helped in reducing overfititng of the data and thus the loss is being reduced. But it reduced the Acurracy very low.
+- Initially we tried without the ImageDataGenerator which created data to over fit at high ratio.
+- Then we introduced dropout and ImageDataGenerator which reduced the over fit.
+- At last we tried Batch Normalization and Augumentation which really helped in carry forward
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
