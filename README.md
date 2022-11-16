@@ -75,10 +75,9 @@ The data set contains the following diseases:
 - pandas
 
 ## Conclusions
-- The class rebalance helped in reducing overfititng of the data and thus the loss is being reduced. But it reduced the Acurracy very low.
-- Initially we tried without the ImageDataGenerator which created data to over fit at high ratio.
-- Then we introduced dropout and ImageDataGenerator which reduced the over fit.
-- At last we tried Batch Normalization and Augumentation which really helped in carry forward
+- Overfitting reduced by using the class rebalance and thus the loss is being reduced (loss is zero). But it reduced the Acurracy low to 0.115.
+- Then we introduced dropout and ImageDataGenerator which reduced the over fit. Keras ImageDataGenerator is this type of data augmentation. Take a batch of images used for training. Apply random transformations to each image in the batch. Replacing the original batch of images with a new randomly transformed batch.
+- Normalization and Augumentation also helped.
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
